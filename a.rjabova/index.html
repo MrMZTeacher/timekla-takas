@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio: Aleksandra Rjabova</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik+Mono+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika+Negative:400,700">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <base target="_blank">
+</head>
+<body>
+<main>
+    <article class="block candidate">
+        <img class="avatar" src="images/avatar.png" alt="I am on the photo" width="350" height="500">
+        <h1 class="heading">Aleksandra Rjabova</h1>
+        <p class="vacancy no-first-letter">Custom Software Engineer. Java Developer</p>
+        <button onclick="showMyInfo()">Contact info ... </button>
+        <div id="myInfo">
+            <ul class="contacts">
+                <li class="icon phone"><a href="tel://+371-29-73-98-84">+371 2973 9884</a></li>
+                <li class="icon email"><a href="mailto:gorbule@gmail.com">gorbule@gmail.com</a></li>
+                <li class="icon linkedIn"><a href="https://www.linkedin.com/in/aleksandra-rjabova-9a57852a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Aleksandra Rjabova</a></li>
+            </ul>
+        </div>
+        <script>
+            function showMyInfo() {
+              var x = document.getElementById("myInfo");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+    </article>
+    <article class="block summary">
+        <h2 class="heading">Professional background</h2>
+        <p>
+            As a highly motivated individual in the IT industry,
+            I have been working as a backend developer for almost 2 years,
+            showcasing strong technical expertise and soft skills.
+            I am equally comfortable working within a team or independently,
+            always seeking out new challenges and technologies to further expand my knowledge.
+            With a strong drive for personal and professional growth, I am committed to becoming a
+            specialist in my field.
+
+        </p>
+    </article>
+    <article class="block skills">
+        <h2 class="heading">Functional / technical skills</h2>
+        <ul class="skills-icons">
+            <li class="icon java">Java</li>
+            <li class="icon spring">SpringBoot</li>
+            <li class="icon junit_mockito">Junit5</li>
+            <li class="icon html">HTML</li>
+            <li class="icon css">CSS</li>
+            <li class="icon sql">SQL</li>
+            <li class="icon aws">AWS</li>
+            <li class="icon maven">Maven</li>
+            <li class="icon jenkins">Jenkins</li>
+            <li class="icon git">Git</li>
+            <li class="icon postman">Postman</li>
+            <li class="icon oop">OOP</li>
+        </ul>
+    </article>
+    <article class="block skills">
+        <h2 class="heading">Language skills</h2>
+        <ul class="language-icons">
+            <li class="icon checkmark">English</li>
+            <li class="icon checkmark">Latvian</li>
+            <li class="icon checkmark">Russian</li>
+        </ul>
+    </article>
+    <article class="block experience">
+        <h2 class="heading">Work experience</h2>
+        <p>
+            Accenture, Communications & Media, Application Developer (07/08/2022 – present).
+            Responsibilitiesies: Backend developer. Support for existing microservice cloud architecture
+            and development of new features/components with clean, well-tested code.
+            Skills and tools : Java 8+, Spring Boot, Dropwizard, JUnit/Mockito, Git, Jenkins, AWS
+            (EC2, ECS, RDS, DynamoDB, Lambda, CloudWatch, CloudSearch, S3).
+            Methodologies: Agile, working in Sprints.
+        </p>
+        <p>ToDo Application, Application Developer (05/2022 – 02/2023). Spring Boot Service to manage
+            everyday tasks and to try different technologies on a self-made example project.
+            Technologies: Java 11, Spring boot, JPA, H2 DB, Lombook, Mapstruct, Swagger, Junit5,
+            EhCache, Drools.
+        </p>
+        <p>Internal Intern Project, Application Developer (03/2022 – 07/2022). Accenture Internal
+            Resource Management application. Responsibilities: Creating CRUD endpoints.
+            Technologies: Java 8, Spring/Spring boot, Hibernate, MySQL, Mapstruct, Lombook.
+        </p>
+        <p>Web Application «RestartYourLove», Application Developer (12/2021 – 01/2022).
+            Calendar type web application with the possibility of User registration and login,
+            data output from the global database and option to edit retrieved object’s status.
+            Responsibilities: backend (SpringBoot, User registration and validation process)
+            and frontend development.Technologies: Java, Spring Boot, Thymeleaf, HTML, CSS,
+            JavaScript, MySQL, AWS EC2.
+        </p>
+    </article>
+    <article class="block education">
+        <h2 class="heading">Education</h2>
+        <ul>
+            <li class="element daugavpils-technical-school">
+                <time datetime="2014-09-01">September, 2014 - June, 2018</time>
+                <a href="https://www.dttt.lv/">
+                    Daugavpils technical school, Railway transport organization and traffic safety technician
+                </a>
+            </li>
+            <li class="element riga-technical-college">
+                <time datetime="2018-09-14">September, 2018 - February, 2021</time>
+                <a href="https://www.rtk.lv/">Vocational Education Competence Centre
+                    Riga Technical College, Administrator of computer networks and computer systems</a>
+            </li>
+            <li class="element bootcamp-1">
+                <time datetime="2021-09">June, 2021</time>
+                "She Goes Tech Java I"
+            </li>
+            <li class="element bootcamp-2">
+                <time datetime="2021-11">November, 2021</time>
+                "She Goes Tech Java II"
+            </li>
+            <li class="element aws-certificate">
+                <time datetime="2023-04-28">April 28th, 2023</time>
+                AWS Cloud Practitioner Certificate (validation number: 6H5R2PEC92VEQ13G, 28.04.2023.)
+            </li>
+        </ul>
+    </article>
+</main>
+</body>
+</html>

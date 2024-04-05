@@ -1,0 +1,232 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: url("../images/purple.jpg");
+  background-size: cover;
+}
+
+main {
+  max-width: 740px;
+  margin: 48px auto;
+  background: url("../images/exclusive_paper.jpg");
+  border-radius: 24px;
+  box-shadow: 0 0 16px rgb(31, 31, 31);
+}
+
+#myInfo {
+      display: none; /* Hide the element by default */
+    }
+
+a {
+  color: #7e8285;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9550a1;
+  text-shadow: 2px 0 1px rgba(66, 66, 66, 0.13);
+}
+
+time {
+  font-weight: 700;
+  color: #6f1dad;
+}
+
+.block {
+  padding: 48px;
+  font-family: "Signika Negative", "Trebuchet MS", sans-serif;
+}
+
+.block p:not(.vacancy) {
+  font-size: 14pt;
+  line-height: 1.3em;
+  text-align: justify;
+  color: #696868;
+}
+
+.block p:not(.no-first-letter)::first-letter {
+  display: block;
+  float: left;
+  padding-right: 16px;
+  font-weight: 400;
+  font-size: 48pt;
+  line-height: 1em;
+  font-family: "Rubik Mono One", "Arial Black", sans-serif;
+  color: #9807db;
+}
+
+.heading {
+  font-weight: 400;
+  font-family: "Rubik Mono One", "Arial Black", sans-serif;
+  text-transform: uppercase;
+}
+
+.heading:not(h1) {
+  padding-left: 48px;
+  color: #c183eb;
+  text-shadow: 0 0 1px black, 2px 3px 1px #58227d;
+}
+
+.language {
+  position: relative;
+  display: block;
+  height: 48px;
+  margin-left: 48px;
+  padding: 0 12px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  height: 48px;
+  margin-left: 48px;
+  padding: 0 12px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.icon::before {
+  position: absolute;
+  left: -48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: " ";
+}
+
+.icon.phone::before {
+  background: url("../images/phone.png");
+  background-size: cover;
+}
+
+.icon.email::before {
+  background: url("../images/email.png");
+  background-size: cover;
+}
+
+.icon.linkedIn::before {
+  background: url("../images/linkedIn.png");
+  background-size: cover;
+}
+
+.icon.java::before {
+  background: url("../images/java.png");
+  background-size: cover;
+}
+
+.icon.aws::before {
+  background: url("../images/aws.png");
+  background-size: cover;
+}
+
+.icon.html::before {
+  background: url("../images/html.png");
+  background-size: cover;
+}
+
+.icon.css::before {
+  background: url("../images/css.png");
+  background-size: cover;
+}
+
+.icon.git::before {
+  background: url("../images/git.png");
+  background-size: cover;
+}
+
+.icon.oop::before {
+  background: url("../images/oop.png");
+  background-size: cover;
+}
+
+.icon.maven::before {
+  background: url("../images/maven.png");
+  background-size: cover;
+}
+
+.icon.spring::before {
+  background: url("../images/spring.png");
+  background-size: cover;
+}
+
+.icon.junit_mockito::before {
+  background: url("../images/junit.png");
+  background-size: cover;
+}
+
+.icon.sql::before {
+  background: url("../images/sql.png");
+  background-size: cover;
+}
+
+.icon.jenkins::before {
+  background: url("../images/jenkins.png");
+  background-size: cover;
+}
+
+.icon.postman::before {
+  background: url("../images/postman.png");
+  background-size: cover;
+}
+
+.icon.checkmark::before {
+  background: url("../images/checkmark.png");
+  background-size: cover;
+}
+
+.candidate {
+  text-align: center;
+}
+
+.candidate .avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgb(31, 31, 31);
+}
+
+.candidate .heading {
+  margin-bottom: 0;
+  color: rgb(117, 35, 173);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.836), 4px 4px 1px rgba(68, 68, 68, 0.247);
+}
+
+.candidate .vacancy {
+  margin: 8px auto;
+  font-weight: 700;
+  font-size: 18pt;
+}
+
+.candidate .contacts,
+.skills .skills-icons,
+.education ul {
+  list-style: none;
+}
+
+.candidate .contacts {
+  margin: 56px 0 0;
+  padding: 0;
+}
+
+.skills .icon {
+  width: 70px;
+  padding: 14px;
+}
+
+.language .icon ul{
+  width: 70px;
+  padding: 30px;
+}
+
+.education ul {
+  padding: 0;
+  font-size: 14pt;
+  line-height: 1.5em;
+  color: #696868;
+}
+
+.education .element {
+  margin-top: 36px;
+}
